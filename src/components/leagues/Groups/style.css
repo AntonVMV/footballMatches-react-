@@ -1,0 +1,47 @@
+
+.group__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.group__list p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.group__list_item{
+    display: flex;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ABB4BD;
+    background-color: #E3E6E8;
+}
+
+.group__list_header{
+    background-color: #294B8F;
+    color: #fff;
+    text-transform: capitalize;
+    border-bottom: none;
+}
+
+.group__item_title{
+    font-weight: bold;
+}
+
+.group__item_text{
+    margin-left: auto;
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+}
+
+.group__item_position{
+    margin-right: 16px;
+    color: #ABB4BD;
+}
+
+.group__list_item:last-child{
+    border-bottom: none;
+}

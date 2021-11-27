@@ -1,0 +1,31 @@
+.league__nav{
+    list-style: none;
+    border-bottom: 2px solid #F0F5FA;
+    padding: 15px 0;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.league__nav_link{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 24px;
+}
+
+.league__nav_link_active{
+    color: #002060;
+    font-weight: bold;
+    position: relative;
+}
+
+.league__nav_link_active::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 32.5px;
+    border: 1px solid #002060;
+}

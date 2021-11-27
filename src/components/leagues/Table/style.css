@@ -1,0 +1,7 @@
+.groups__wrap{
+    margin: 16px auto 0;
+    width: 1180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}

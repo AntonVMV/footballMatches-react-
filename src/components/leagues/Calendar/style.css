@@ -1,0 +1,30 @@
+.calendar__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar__list p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.calendar__item{
+    display: grid;
+    grid-template-columns: 1fr 930px 1fr;
+    padding: 8px 0;
+    border-bottom: 1px solid #F0F5FA;
+}
+
+.calendar__item_header{
+    color: #ABB4BD;
+    align-items: center;
+}
+
+.calendar__items{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 60px 60px 170px 1fr 60px;
+    justify-items: center;
+}
